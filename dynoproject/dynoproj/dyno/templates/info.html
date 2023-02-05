@@ -1,0 +1,94 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block body %}
+    <div class="overlay"></div>
+    <div class="App">
+        <h1>Info</h1>
+        <table>
+            <tr>
+                <td>
+                    <div id="box">
+                        <img id="upload" src="images/{{path}}" alt="{{name}}" />
+                    </div>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>
+                                <p>Name:</p>
+                            </th>
+                            <th>
+                                <p>Count:</p>
+                            </th>
+                            <th>
+                                <p>Calories:</p>
+                            </th>
+                            <th>
+                                <p>Company:</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <p id="name">{{name}}</p>
+                            </th>
+                            <th>
+                                <p id="count">{{count}}</p>
+                            </th>
+                            <th>
+                                <p id="calories">{{calories}}</p>
+                            </th>
+                            <th>
+                                <p id="label">{{label}}</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <p>Carbohydrates:</p>
+                            </th>
+                            <th>
+                                <p>Sugar:</p>
+                            </th>
+                            <th>
+                                <p>Protein:</p>
+                            </th>
+                            <th>
+                                <p>Sustainability:</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <p id="carbs">{{carbs}}</p>
+                            </th>
+                            <th>
+                                <p id="sugar">{{sugar}}</p>
+                            </th>
+                            <th>
+                                <p id="protein">{{protein}}</p>            
+                            </th>
+                            <th>
+                                <p id="rating">{{rating}}</p>            
+                            </th>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form method="POST">
+                        {% csrf_token %}
+                        <input type="hidden" name="return">
+                        <button type="submit"> Feed Dyno Again </button>
+                    </form>
+                </td>
+                <td>
+                    <p>
+                        You fed Dyno a {{name}}.
+                        Make sure to responsibly dispose of waste and recycle what you can! 
+                    </p>
+                    <img src="{% static 'dino.png' %}" alt="dino" />
+                </td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block body %}
+    <div class="overlay"></div>
+    <div class="App">
+        <h1>Dyno is hungry, feed him an image. </h1>
+        <img id="dino" src="{% static 'dino.png' %}" alt="dino" />
+        <div class="Logo"></div>
+        <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+            {{ imgform.as_p }}
+            <button type="submit">Upload Image</button>
+        </form>
+        <img id="plateemoji" src="https://em-content.zobj.net/thumbs/320/apple/325/fork-and-knife-with-plate_1f37d-fe0f.png" alt="forkandknife">
+    </div>
+{% endblock %}
