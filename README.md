@@ -16,6 +16,8 @@ Through teamwork and collaboration, we all had skills that complemented each oth
 We ran into several challenges mostly with getting APIs to work, such as reaching a limit for one that provides a company's sustainability. In the end, we overcame (most of) these challenges with resilience and created a working product we are proud of.
 
 ## Accomplishments that we're proud of
+Teamwork: how to work on tech projects with other people
+We learnt a lot from each other
 
 ## What we learned
 What's next for DynoAI
