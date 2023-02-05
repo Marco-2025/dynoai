@@ -1,5 +1,5 @@
 # dynoai
-(Try it out!)[http://dynoai.tech/]
+[Try it out!](http://dynoai.tech/)
 
 ## Inspiration
 When we formed this 4 man group we spent an hour or two to brainstorm ideas together. The keyword we focused on was "interactivity", and most of our initial ideas were based on different concepts of data visualization and machine learning.
@@ -20,7 +20,8 @@ Teamwork: how to work on tech projects with other people
 We learnt a lot from each other
 
 ## What we learned
-What's next for DynoAI
+
+## What's next for DynoAI
 Our future plan for Dyno AI would be to continuously improve the Dyno character model by creating a 3D animated character with more animations. Some other features we would have liked to add include a bar to give a sense of scale to the company's sustainability.
 
 ## Built With
