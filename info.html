@@ -18,7 +18,7 @@
             <tr>
                 <td>
                     <div id="box">
-                        <img id="upload" src="images/{{path}}" alt="{{name}}" />
+                       
                     </div>
                 </td>
                 <td>
@@ -74,16 +74,15 @@
             <tr>
                 <td>
                     <form method="POST">
-                        {% csrf_token %}
                         <input type="hidden" name="return">
                         <button type="submit"> Feed Dyno Again </button>
                     </form>
                 </td>
                 <td>
                     <p>
-                        You fed Dyno a {{name}}.
+                        You fed Dyno a "Food".
                     </p>
-                    <img src="{% static 'dino.png' %}" alt="dino" />
+                    <img src="dino.png" alt="dino" />
                 </td>
             </tr>
         </table>
