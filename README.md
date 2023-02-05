@@ -10,7 +10,7 @@ We all agreed to focus on a computer vision project. We linked multiple ideas to
 This website opens up in into the home page, asking the user to "feed Dyno" by uploading an image. Once a photo is uploaded, the website transitions to the second page. This shows the image that the user uploaded, in addition to various information related to the submitted image. It provides the name of the detected object, nutritional information (per 100g), and a rating of how sustainable the company that makes the product is (if applicable).
 
 ## How we built it
-Through teamwork and collaboration, we all had skills that complemented each others'.
+Through teamwork and collaboration, we all had skills that complemented each others'. We helped each other overcome the many roadblocks we faced during the creation of this project.
 
 ## Challenges we ran into
 We ran into several challenges mostly with getting APIs to work, such as reaching a limit for one that provides a company's sustainability. In the end, we overcame (most of) these challenges with resilience and created a working product we are proud of.
