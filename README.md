@@ -1,11 +1,6 @@
-# dynoai
+# Dynoai
 [Try it out!](http://dynoai.tech/)
-![image](https://user-images.githubusercontent.com/88850029/217239801-f8f2ee51-bdf8-44f7-aa0d-3d9cac236f88.png)
-![image](https://user-images.githubusercontent.com/88850029/217239859-46b87855-1585-4561-9c40-9e02198afca0.png)
-![image](https://user-images.githubusercontent.com/88850029/217239898-a6f99e89-0644-47d0-93dd-7b2f6772bc18.png)
-![image](https://user-images.githubusercontent.com/88850029/217239922-a3c3fb2c-b822-497b-b9d7-8348be96cd50.png)
-![image](https://user-images.githubusercontent.com/88850029/217239979-bff14c05-f685-4b2d-af11-b2106b7719e7.png)
-https://www.youtube.com/watch?v=nFtwJCCdF4Y&ab_channel=Marco 
+
 ## Inspiration
 When we formed this 4 man group we spent an hour or two to brainstorm ideas together. The keyword we focused on was "interactivity", and most of our initial ideas were based on different concepts of data visualization and machine learning. 
 
@@ -30,3 +25,14 @@ Creating a working prototype within the given time frame, that has a positive im
 
 ## What's next for DynoAI
 Our future plan for Dyno AI would be to continuously improve the Dyno character model by creating a 3D animated character with more animations.  Some other features we would have liked to add include a bar to give a sense of scale to the company's sustainability.
+
+## Preview
+
+![image](https://user-images.githubusercontent.com/88850029/217239801-f8f2ee51-bdf8-44f7-aa0d-3d9cac236f88.png)
+![image](https://user-images.githubusercontent.com/88850029/217239859-46b87855-1585-4561-9c40-9e02198afca0.png)
+![image](https://user-images.githubusercontent.com/88850029/217239898-a6f99e89-0644-47d0-93dd-7b2f6772bc18.png)
+![image](https://user-images.githubusercontent.com/88850029/217239922-a3c3fb2c-b822-497b-b9d7-8348be96cd50.png)
+![image](https://user-images.githubusercontent.com/88850029/217239979-bff14c05-f685-4b2d-af11-b2106b7719e7.png)
+
+
+https://www.youtube.com/watch?v=nFtwJCCdF4Y&ab_channel=Marco 
